@@ -61,6 +61,12 @@
     <Compile Include="frmAnasayfa.Designer.cs">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEv.Designer.cs">
+      <DependentUpon>frmEv.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAnasayfa.resx">
       <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEv.resx">
+      <DependentUpon>frmEv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGiris.resx">
       <DependentUpon>frmGiris.cs</DependentUpon>
